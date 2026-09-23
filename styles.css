@@ -51,3 +51,33 @@ whatsapp-link {
   flex: 0 0 22px;
   display: inline-block;
 }
+.pricing-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.trial-card {
+  border: 2px solid #4bc43d;
+  position: relative;
+}
+
+.trial-card h3 {
+  color: #0b2d52;
+}
+
+.trial-intro {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.trial-card .price span {
+  color: #0b2d52;
+}
+
+@media (max-width: 950px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+}
