@@ -27,3 +27,14 @@
     width: 78px;
   }
 }
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
